@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.vercel/
+.husky/
+.vscode/snipsnap.code-snippets
+public/
+
+.gitignore
+.eslintrc
+package-lock.json
+.prettierignore
+.env
+.env.local
+LICENSE

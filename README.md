@@ -2,19 +2,19 @@
 
 This is a TypeScript starter for Next.js that includes all you need to build amazing projects 🔥
 
--   📏 **ESLint** — For linting
--   💖 **Prettier** - Opinionated Code Formatter
--   🐶 **Husky** — For custom git hooks
--   👩‍🎤 **Emotion** - A CSS-in-JS library for styling apps quickly
--   ⚛️ **Redux** - A centralized state management library
--   ⚛️ **Redux-Saga** - For managing side effects through Redux
+- 📏 **ESLint** — For linting
+- 💖 **Prettier** - Opinionated Code Formatter
+- 🐶 **Husky** — For custom git hooks
+- 👩‍🎤 **Emotion** - A CSS-in-JS library for styling apps quickly
+- ⚛️ **Redux** - A centralized state management library
+- ⚛️ **Redux-Saga** - For managing side effects through Redux
 
 ## 🚀 Getting started
 
 Clone this repository and run the following commands inside the project folder:
 
 1. `npm install`;
-4. `npm run dev`;
+2. `npm run dev`;
 
 To view the project open `http://localhost:3000`.
 

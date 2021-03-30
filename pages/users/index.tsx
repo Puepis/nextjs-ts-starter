@@ -5,12 +5,13 @@ import { User } from '../../src/interfaces';
 import { sampleUserData } from '../../src/utils/sample-data';
 import Layout from '../../src/components/Layout';
 import List from '../../src/components/List';
+import { FC } from 'react';
 
 type Props = {
   items: User[];
 };
 
-const WithStaticProps = ({ items }: Props) => (
+const WithStaticProps: FC<Props> = ({ items }: Props) => (
   <Layout title="Users List | Next.js + TypeScript Example">
     <h1>Users List</h1>
     <p>

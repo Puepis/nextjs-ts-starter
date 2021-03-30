@@ -4,13 +4,14 @@ import { User } from '../../src/interfaces';
 import { sampleUserData } from '../../src/utils/sample-data';
 import Layout from '../../src/components/Layout';
 import ListDetail from '../../src/components/ListDetail';
+import { FC } from 'react';
 
 type Props = {
   item?: User;
   errors?: string;
 };
 
-const StaticPropsDetail = ({ item, errors }: Props) => {
+const StaticPropsDetail: FC<Props> = ({ item, errors }: Props) => {
   if (errors) {
     return (
       <Layout title="Error | Next.js + TypeScript Example">

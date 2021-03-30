@@ -32,3 +32,7 @@ export const Combined = styled.div`
     background-color: linen;
   }
 `;
+
+export const Count = styled.div`
+  padding: 0 0 20px 0;
+`;

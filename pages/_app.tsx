@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import { AppProps } from 'next/app';
 import { css, Global } from '@emotion/react';
 
-const App: FC<AppProps> = ({ Component, pageProps }) => (
+const App: FC<AppProps> = ({ Component, pageProps }: AppProps) => (
   <>
     <Global
       styles={css`
